@@ -1,4 +1,4 @@
-import EE from 'EventEmitter'
+import EE from 'react-native/Libraries/EventEmitter/EventEmitter'
 
 export default class EventEmitter extends EE {
   static DefaultEmitter = new EventEmitter();
